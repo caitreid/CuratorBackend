@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-# projectThreeBackend
-
-Testing remote add upstream for backend - Johnny
-=======
 # express-auth-template
 
 A template for starting projects with `express` as an API. Includes
