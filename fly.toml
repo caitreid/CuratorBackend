@@ -5,10 +5,13 @@ kill_signal = "SIGINT"
 kill_timeout = 5
 processes = []
 
+[build]
+  builder = "heroku/buildpacks:20"
+
 [env]
   PORT = "8080"
   MONGODB_URI = "mongodb+srv://caitlinreid:101345ab@cluster0.lzygupm.mongodb.net/artgallerydatabase?retryWrites=true&w=majority"
-  CLIENT_ORIGIN = "this will be the front end's deployed application"
+  CLIENT_ORIGIN = "https://lucent-pothos-0fd6fc.netlify.app"
 
 [experimental]
   auto_rollback = true
