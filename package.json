@@ -7,7 +7,9 @@
     "start": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "seedExhibitions": "node ./app/seed/exhibitions.js",
-    "seedDepartments": "node ./app/seed/departments.js"
+    "seedDepartments": "node ./app/seed/departments.js",
+    "seedDeployedDepartments": "node ./app/seed/deploy_departments.js",
+    "seedDeployedExhibitions": "node ./app/seed/deploy_exhibitions.js"
   },
   "author": "The Con Artist",
   "license": "ISC",
