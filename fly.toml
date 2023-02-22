@@ -7,7 +7,7 @@ processes = []
 
 [env]
   PORT = "8080"
-  MONGODB_URI = "mongodb+srv://caitlinreid:101345ab@cluster0.lzygupm.mongodb.net/?retryWrites=true&w=majority"
+  MONGODB_URI = "mongodb+srv://caitlinreid:101345ab@cluster0.lzygupm.mongodb.net/artgallerydatabase?retryWrites=true&w=majority"
   CLIENT_ORIGIN = "this will be the front end's deployed application"
 
 [experimental]
