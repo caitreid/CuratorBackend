@@ -1,4 +1,6 @@
-# Project 3 - Art Gallery
+# Curator | Art Gallery App
+
+Live: https://lucent-pothos-0fd6fc.netlify.app/
 
 
 ## Description 
